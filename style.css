@@ -1,0 +1,28 @@
+h1{color:brown}
+h2{color:aqua}
+/**{border:solid}*/
+.header{
+    background-color: lemonchiffon;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
+.site-description{
+    display:flex;
+    flex-direction:column;
+    justify-content:first baseline;
+}
+body{
+    background-color:#52525e;
+}
